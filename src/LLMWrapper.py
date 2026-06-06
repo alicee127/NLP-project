@@ -11,7 +11,7 @@ class LLMWrapper():
 
     def generate(self, prompt: str) -> str:
         message = [{'role': 'user', 'content': prompt}]
-        output = self.pipe(message, max_new_tokens = 50)
+        output = self.pipe(message, max_new_tokens = 50, max_length = None, temperature = 0.1, do_sample = True)
 
         return output[0]['generated_text'][-1]['content']
     
