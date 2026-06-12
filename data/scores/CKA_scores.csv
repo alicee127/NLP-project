@@ -1,0 +1,16 @@
+country,group,cka
+China,control,0.428
+China,persona,0.446
+China,language,0.556
+Spain,control,0.438
+Spain,persona,0.442
+Spain,language,0.53
+Greece,control,0.394
+Greece,persona,0.382
+Greece,language,0.39
+Indonesia,control,0.484
+Indonesia,persona,0.458
+Indonesia,language,0.59
+Algeria,control,0.374
+Algeria,persona,0.352
+Algeria,language,0.304
